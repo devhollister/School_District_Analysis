@@ -16,7 +16,8 @@ How is the school summary affected?
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-![Top Five Schools](resources/DataFrame_Screenshots/Screen Shot 2020-10-16 at 12.51.11 PM.png) ![](resources/DataFrame_Screenshots/top_five_schools_revised.png)
+![Top Five Schools](resources/DataFrame_Screenshots/top_five_schools.png) ![](resources/DataFrame_Screenshots/top_five_schools_revised.png)
+
 ![](resources/DataFrame_Screenshots/bottom_five_schools.png) ![](resources/DataFrame_Screenshots/bottom_five_schools_revised.png)
 
 
