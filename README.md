@@ -12,9 +12,13 @@ The following is an analysis of a school district's standardized test scores to 
   ##### Revised District Summary
   ![](resources/DataFrame_Screenshots/district_summary_revised.png)
 
-* How is the school summary affected?
-  ##### Disctrict Summary by School
-  ![](resources/DataFrame_Screenshots/per_school_summary.png)
+* In a school by school analysis, only the scores of Thomas High School are affected in the revised analysis. As shown below, all performance metrics fell slightly when the scores in question were eliminated. 
+  ##### Thomas High School Summary
+  ![](resources/DataFrame_Screenshots/ths.png)
+  #### Revised Thomas High SChool Summary
+  ![](resources/DataFrame_Screenshots/ths_revised.png)
+
+  The complete revised district summary by school is shown below:
   ##### Revised Disctrict Summary by School
   ![](resources/DataFrame_Screenshots/per_school_summary_revised.png)
 
