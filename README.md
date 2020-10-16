@@ -35,12 +35,12 @@ The following is an analysis of a school district's standardized test scores to 
   ![](resources/DataFrame_Screenshots/reading_averages_revised.png)
 
 * Standardized testing performance when analyzed by school spending did not significantly change when ninth grade scores from Thomas High School were omitted. The results of the revised analysis is pictured below. 
-  #### Revised Performance by School Spending
+  ##### Revised Performance by School Spending
   ![](resources/DataFrame_Screenshots/school_spending_summary.png)
 
 * Standardized testing performance when analyzed by school size did not significantly change when ninth grade scores from Thomas High School were omitted. The results of the revised analysis is pictured below. 
   ##### Revised Performance by School Size
-  ![](resourcesDataFrame_Screenshots/school_size_summary.png)
+  ![](resources/DataFrame_Screenshots/school_size_summary.png)
 
 * Standardized testing performance when analyzed by school type (charter or district) did not significantly change when ninth grade scores from Thomas High School were omitted. The results of the revised analysis is pictured below.
   ##### Revised Performance by School Type
