@@ -6,17 +6,19 @@ The following is an analysis of a school district's standardized test scores to 
 
 ## Results
 
-On a district level, 
-![](resources/DataFrame_Screenshots/district_summary.png)
-![](resources/DataFrame_Screenshots/district_summary_revised.png)
+* On a district level, the ommision of Thomas High nineth grade scores lowers four of the five standardized testing performance measures with exception being the average reading score, which stayed roughly the same. However, the other four performance categories dropped only slightly: 0.1 point for the average math score and 0.1 - 0.3% for the percentage of students passing math, reading, and both.  This may be seen as support for the claim that the scores were artificially high.
+  ##### Original District Summary
+  ![](resources/DataFrame_Screenshots/district_summary.png)
+  ##### Revised District Summary
+  ![](resources/DataFrame_Screenshots/district_summary_revised.png)
 
-How is the school summary affected?
+* How is the school summary affected?
 ![](resources/DataFrame_Screenshots/per_school_summary.png)
 ![](resources/DataFrame_Screenshots/per_school_summary_revised.png)
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-![Top Five Schools](resources/DataFrame_Screenshots/top_five_schools.png) ![](resources/DataFrame_Screenshots/top_five_schools_revised.png)
+![Top Five Schools](Resources/DataFrame_Screenshots/top_five_schools.png) ![](resources/DataFrame_Screenshots/top_five_schools_revised.png)
 
 ![](resources/DataFrame_Screenshots/bottom_five_schools.png) ![](resources/DataFrame_Screenshots/bottom_five_schools_revised.png)
 
