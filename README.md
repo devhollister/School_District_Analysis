@@ -6,7 +6,7 @@ The following is an analysis of a school district's standardized test scores to 
 
 ## Results
 
-* On a district level, the omission of Thomas High ninth grade scores lowers four of the five standardized testing performance measures with exception being the average reading score, which stayed roughly the same. However, the other four performance categories dropped only slightly: 0.1 point for the average math score and 0.1 - 0.3% for the percentage of students passing math, reading, and both.  This may be seen as support for the claim that the scores were artificially high.
+* On a district level, the omission of Thomas High ninth grade scores lowers four of the five standardized testing performance measures with exception being the average reading score, which stayed roughly the same.
   ##### Original District Summary
   ![](resources/DataFrame_Screenshots/district_summary.png)
   ##### Revised District Summary
@@ -22,7 +22,7 @@ The following is an analysis of a school district's standardized test scores to 
   ##### Revised Disctrict Summary by School
   ![](resources/DataFrame_Screenshots/per_school_summary_revised.png)
 
-* In both analyses, Thomas High School was within the top five highest performing schools and was second when ranked by overall percentage of students passing both math and reading. It should be noted, however, that when it comes to the other metrics, Thomas High fell from having the second highest to third highest average math scores, third highest to fourth higest average reading score, and highest to third highest percentage of students passing reading.    
+* In both analyses, Thomas High School was within the top five highest performing schools and was second when ranked by overall percentage of students passing both math and reading. When it comes to the other metrics, Thomas High fell from having the second highest to third highest average math scores, third highest to fourth higest average reading score, and highest to third highest percentage of students passing reading.    
   ##### Top 5 Schools
   ![](resources/DataFrame_Screenshots/top_five_schools.png)
   ##### Revised Top 5 Schools
@@ -47,4 +47,5 @@ The following is an analysis of a school district's standardized test scores to 
   ![](resources/DataFrame_Screenshots/school_type_summary.png)
 
 ## Summary:
-Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+Overall, it can be said that the replacement of the Thomas High School ninth grade scores with NaN had a relatively small effect on the overall analysis, especially when standardized testing performanced was analyzed as a function of school spending, school size, and school type. Using a resolution of a tenth of a point for average math and reading scores, and whole numbers for percentages, nullifying the ninth grade scores indeed did not change the results of the analysis. On a district level, however, the nullification of the scores resulted in a slight lowering of average math scores, percentage of students passing math, percentage of students passing reading, and students passing both math and reading, % overall passing (average reading score remained essentially the same). This may be seen as support for the claim that the ninth grade scores were artificially high, though it should also be noted that the affected performance measures only dropped minutely: 0.1 point for the average math score and 0.1 - 0.3% for the percentage of students passing math, reading, and both subjects. Perhaps most affected was the school by school summary, as the metrics for Thomas High School by definition saw the most change between the two analyses. As stated above, all of Thomas High School's performance metrics fell when the scores in question were eliminated with the exception of average reading score, which increased. This suggests that the ninth grade scores and percentages were higher than those of the rest of the school (except in reading score), inflating Thomas High School's numbers. This of course affects how the school ranks when compared to other schools. As stated above, when ranked by overall passing percentage, Thomas High School was the second highest performing school even after removing the ninth grade scores, but as previously stated, it fell in by one ranking in average math and in reading scores, and by two rankings in percentage passing reading. 
